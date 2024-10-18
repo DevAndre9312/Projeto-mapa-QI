@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+}
+
+#menu {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #ccc;
+    overflow-y: auto;
+}
+
+#menu h2 {
+    margin-top: 0;
+}
+
+.setor {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.setor h3 {
+    cursor: pointer;
+    margin: 0;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+.config {
+    display: none;
+    margin-top: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#mapa {
+    flex: 1;
+    position: relative;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+select, input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}

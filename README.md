@@ -1,1 +1,0 @@
-# Projeto-mapa-QI
